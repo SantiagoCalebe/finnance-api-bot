@@ -54,28 +54,18 @@
   // APIs to monitor
   "apis": [
     {
-      "name": "Customers API",
-      "url": "https://api.example.com/customers/health",
-      "enabled": true
-    },
-    {
-      "name": "Finance API",
-      "url": "https://finance.example.com/health",
-      "enabled": true
-    },
-    {
-      "name": "Orders API",
-      "url": "https://orders.example.com/health",
-      "enabled": true
-    },
-    {
       "name": "Authentication API",
-      "url": "https://auth.example.com/health",
+      "url": "https://finnance-authentication.vercel.app/api/isAuthDown",
       "enabled": true
     },
     {
-      "name": "Products API",
-      "url": "https://products.example.com/health",
+      "name": "Main API",
+      "url": "https://finnance-api.vercel.app/api/isAPIdown",
+      "enabled": true
+    },
+    {
+      "name": "Finny [AI] API",
+      "url": "https://finny-bot.vercel.app/api/isFInnyAIdown",
       "enabled": true
     }
   ]
